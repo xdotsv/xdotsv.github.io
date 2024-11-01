@@ -10,7 +10,7 @@ function weighted_choice(roll, player)
   elseif roll > 78
     then LuaCraft.executeCommand("discord bcast [gambling] player gambled and won this message!") LuaCraft.player.sendMessage("[Gambling] You won a message in the discord!")
   elseif roll > 70
-    then LuaCraft.brodcastMessage("AW DANG IT!")
+    then LuaCraft.broadcastMessage("AW DANG IT!")
   elseif roll > 63
     then LuaCraft.executeCommand("playsound entity.wither.spawn master @a[distance=10..100] ~ ~ ~ 2.5") LuaCraft.brodcastMessage(player.." gambled and won a Wither! (sound effect)")
   elseif roll > 57
