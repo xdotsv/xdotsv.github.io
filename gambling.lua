@@ -1,3 +1,4 @@
+--- /loadstring loadstring(LuaCraft.httpGet("https://xdotsv.github.io/gambling.lua"))()
 CommandManager.registerCommand(
   "gambletest",
   function(commandLabel, senderName, args)
