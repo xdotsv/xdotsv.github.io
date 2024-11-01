@@ -1,3 +1,4 @@
+--- /loadstring loadstring(Luacraft.httpGet("https://xdotsv.github.io/test.lua"))()
 local player = LuaCraft.getLocalPlayer()
 LuaCraft.player.giveItem("PISTON", 64)
 LuaCraft.player.sendMessage("Lua code gave you a stack of pistons.")
