@@ -1,1 +1,6 @@
-LuaCraft.broadcastMessage("Testing httpGet")
+local player = LuaCraft.getLocalPlayer()
+LuaCraft.player.giveItem("PISTON", 64)
+LuaCraft.player.sendMessage("Lua code gave you a stack of pistons.")
+local position = LuaCraft.player.getPosition()
+LuaCraft.newEntity("FURNACE_MINECART", position)
+LuaCraft.player.sendMessage("Spawned a furnace minecart at your current location.")
