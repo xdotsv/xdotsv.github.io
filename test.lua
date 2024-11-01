@@ -1,1 +1,1 @@
-loadstring(LuaCraft.httpGet('e'))()
+LuaCraft.broadcastMessage("Testing httpGet")
