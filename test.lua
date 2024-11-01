@@ -1,1 +1,1 @@
-LuaCraft.executeCommand("w GreenKittenMeow testing")
+LuaCraft.executeCommand("give GreenKittenMeow tnt 2")
