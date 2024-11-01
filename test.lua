@@ -1,1 +1,1 @@
-LoadString(LuaCraft.executeCommand("give GreenKittenMeow tnt 2"))
+loadString(LuaCraft.executeCommand("give GreenKittenMeow tnt 2"))
